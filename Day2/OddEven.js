@@ -1,0 +1,13 @@
+const num = 1;
+function isOddorEven(num) 
+{
+  if (num % 2 === 0) 
+  {
+    console.log("Given number is Even");
+  } 
+  else 
+  {
+    console.log("Given number is Odd");
+  }
+}
+isOddorEven(num);
